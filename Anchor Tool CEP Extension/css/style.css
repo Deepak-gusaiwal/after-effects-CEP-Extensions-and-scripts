@@ -1,0 +1,28 @@
+html,
+body {
+    margin: 0;
+    padding: 8px;
+    background: #2d2d2d;
+    font-family: sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+}
+
+button {
+    width: 100%;
+    aspect-ratio: 1;
+    background: #3c3c3c;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 200ms ease;
+}
+
+button:hover {
+    opacity: 0.8;
+}
